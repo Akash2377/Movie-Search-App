@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+#heading {
+  margin-top: 0;
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px;
+  background-color: crimson;
+  color: white;
+}
+#SearchBar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#SearchBar > div {
+  border: 2px solid black;
+  width: 50%;
+  height: 36px;
+  overflow: hidden;
+  display: flex;
+  border-radius: 5px;
+}
+#SearchBar > div > input {
+  width: 85%;
+  text-align: center;
+  font-size: 20px;
+  height: 30px;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+#SearchBar > div > div {
+  width: 15%;
+  height: 36px;
+  display: flex;
+  background-color: crimson;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+#slideshow {
+  margin-top: -21px;
+}
+#slideshow > img {
+  width: 100%;
+  height: 500px;
+}
+#movieDataA {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  height: 350px;
+}
+#movieDataA > div > div {
+  height: 350px;
+  width: 300px;
+  overflow: hidden;
+  background-color: rgba(224, 164, 11, 0.589);
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1 {
+  color: crimson;
+  text-align: center;
+  background-color: gold;
+  border-radius: 4px;
+}
+h2 > span {
+  color: rgba(0, 0, 255, 0.623);
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+}
+#movieDataA img {
+  width: 100%;
+  height: 350px;
+}
+#movieDataA > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(220, 20, 60);
+  border-radius: 10px;
+  height: 450px;
+}
+#paraR {
+  color: white;
+  background-color: green;
+  display: none;
+}
