@@ -91,8 +91,9 @@ h2 > span {
   border-radius: 10px;
   height: 450px;
 }
+
 #paraR {
-  color: white;
+  color: wheat;
   background-color: green;
   display: none;
 }
